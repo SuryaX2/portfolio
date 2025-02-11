@@ -62,7 +62,7 @@ export const BentoGridItem = ({
     };
 
     const handleCopy = () => {
-        const text = "hsu@jsmastery.pro";
+        const text = "sekharsurya111@gmail.com";
         navigator.clipboard.writeText(text);
         setCopied(true);
     };
@@ -117,7 +117,7 @@ export const BentoGridItem = ({
                         {title}
                     </div>
 
-                    {id === 2 && <GridGlobe/>}
+                    {id === 2 && <GridGlobe />}
 
                     {id === 3 && (
                         <div className="flex gap-1 lg:gap-5 w-fit absolute -right-4 lg:-right-2">
