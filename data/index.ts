@@ -74,7 +74,7 @@ export const projects = [
         id: 1,
         title: "Library Management System (LMS) ",
         des: "A comprehensive platform for managing books, users, and borrowing activities efficiently, built with modern web technologies.",
-        img: "/p1.svg",
+        img: "/LMS.png",
         iconLists: ["/re.svg", "/tail.svg", "/mongodb.svg", "/js.svg", "cloud.svg"],
         link: "https://github.com/SuryaX2/LMS",
     },
@@ -94,46 +94,26 @@ export const projects = [
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
         link: "https://github.com/adrianhajdin/ai_saas_app",
     },
-    {
-        id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
-    },
+    // {
+    //     id: 4,
+    //     title: "Animated Apple Iphone 3D Website",
+    //     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    //     img: "/p4.svg",
+    //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //     link: "https://github.com/adrianhajdin/iphone",
+    // },
 ];
 
-export const testimonials = [
+export const educations = [
     {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        image: "/Bmgshs.jpeg",
+        name: "Bagmari Manicktala Govt. Spons. High School",
+        title: "Since : 2010 - 2022",
     },
     {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        image: "/Nit.jpeg",
+        name: "Narula Institute Of Technology",
+        title: "Since : 2022 - Present",
     },
 ];
 
