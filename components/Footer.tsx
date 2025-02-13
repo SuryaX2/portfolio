@@ -26,18 +26,20 @@ const Footer = () => {
                 <p className='md:text-base text-small md:font-normal font-light'>
                     Copyright © 2025 Surya Sekhar Sharma
                 </p>
-                <div className='flex items-center md:gap-3 gap-6'>
+                <div className='flex items-center md:gap-3 gap-6 mt-6'>
                     {socialMedia.map((profile) => (
                         <div
                             key={profile.id}
                             className='w-10 h-10 cursor-pointer flex items-center justify-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300'
                         >
-                            <img
-                                src={profile.img}
-                                alt="icons"
-                                width={20}
-                                height={20}
-                            />
+                            <a href={profile.link} target="_blank" rel="noopener noreferrer">
+                                <img
+                                    src={profile.img}
+                                    alt="icons"
+                                    width={20}
+                                    height={20}
+                                />
+                            </a>
                         </div>
                     ))}
                 </div>

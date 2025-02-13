@@ -49,8 +49,8 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently building a JS Animation library",
-        description: "The Inside Scoop",
+        title: "Currently building projects with MERN & Next.js",
+        description: "learning through real-world applications",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,7 +72,7 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "Library Management System (LMS) ",
+        title: "MERN Stack - Library Management System (LMS) ",
         des: "A comprehensive platform for managing books, users, and borrowing activities efficiently, built with modern web technologies.",
         img: "/LMS.png",
         iconLists: ["/re.svg", "/tail.svg", "/mongodb.svg", "/js.svg", "cloud.svg"],
@@ -80,28 +80,28 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        title: "NEXT JS - Personal Portfolio",
+        des: "A modern and responsive personal portfolio built with Next.js, showcasing projects, skills, and contact information.",
+        img: "/portfolio.png",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/Aceternity.avif"],
+        link: "https://github.com/SuryaX2/portfolio",
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        title: "SkyCast - Your Weather Companion",
+        des: "A dynamic weather application that provides real-time weather updates, forecasts, and detailed climate conditions.",
+        img: "/weather.webp",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        link: "https://github.com/SuryaX2/Web-Dev/tree/main/Projects/Weather",
     },
-    // {
-    //     id: 4,
-    //     title: "Animated Apple Iphone 3D Website",
-    //     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    //     img: "/p4.svg",
-    //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //     link: "https://github.com/adrianhajdin/iphone",
-    // },
+    {
+        id: 4,
+        title: "PokeSearch - Pokémon Explorer",
+        des: "A sleek and interactive Pokémon search app that allows users to explore detailed Pokémon stats, abilities, and types.",
+        img: "/Poke.png",
+        iconLists: ["/HTML.png", "/css.png", "/js.svg", "/pokeapi-api.png"],
+        link: "https://github.com/SuryaX2/Pokedex",
+    },
 ];
 
 export const educations = [
@@ -185,13 +185,21 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
+        link: "https://github.com/SuryaX2",
     },
     {
         id: 2,
         img: "/twit.svg",
+        link: "https://x.com/SuryaSekharSha2",
     },
     {
         id: 3,
         img: "/link.svg",
+        link: "www.linkedin.com/in/suryax2",
+    },
+    {
+        id: 4,
+        img: "/insta.svg",
+        link: "https://www.instagram.com/suryasekhar.sharma.1",
     },
 ];
