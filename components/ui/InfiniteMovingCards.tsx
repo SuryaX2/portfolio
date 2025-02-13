@@ -1,8 +1,9 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { FaGraduationCap, FaRegHandPointDown } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
 
 export const InfiniteMovingCards = ({
     items,
@@ -103,7 +104,7 @@ export const InfiniteMovingCards = ({
                             ></div>
 
                             {/* Larger Image */}
-                            <img
+                            <Image
                                 src={item.image}
                                 alt={item.name}
                                 className="w-full h-60 object-cover rounded-lg"
