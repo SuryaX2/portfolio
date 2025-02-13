@@ -74,7 +74,7 @@ export const InfiniteMovingCards = ({
         <div
             ref={containerRef}
             className={cn(
-                "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+                "scroller relative z-20 w-screen overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
                 className
             )}
         >
@@ -88,12 +88,13 @@ export const InfiniteMovingCards = ({
             >
                 {items.map((item, idx) => (
                     <li
-                        className="w-[450px] md:w-[550px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-white-800 px-10 py-8"
+                        className="w-[570px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 shadow-[0_8px_16px_rgb(0_0_0/0.4)] px-10 py-8"
                         style={{
-                            background:
-                                "linear-gradient(180deg, var(--black-800), var(--black-900)",
+                            background: "rgb(4,7,29)",
+                            backgroundColor:
+                                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
                         }}
-                        key={item.name}
+                        key={idx}
                     >
                         <blockquote>
                             <div
@@ -110,13 +111,15 @@ export const InfiniteMovingCards = ({
 
                             <div className="relative z-20 mt-6 flex flex-row items-center">
                                 <span className="flex flex-col gap-1">
-                                    <span className="text-lg font-semibold text-gray-300">
-                                        <FaGraduationCap />
-                                        {item.name}
-                                    </span>
-                                    <span className="text-base text-purple font-bold font-mono">
-                                        {item.title}
-                                    </span>
+                                    <div className="flex flex-col gap-1">
+                                        <span className="text-xl font-bold text-white">
+                                            <FaGraduationCap />
+                                            {item.name}
+                                        </span>
+                                        <span className="text-base text-purple font-bold font-mono">
+                                            {item.title}
+                                        </span>
+                                    </div>
                                 </span>
                             </div>
                         </blockquote>

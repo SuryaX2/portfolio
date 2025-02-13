@@ -1,3 +1,4 @@
+import Approach from "@/components/Approach";
 import Education from "@/components/Education";
 import Grid from "@/components/Grid";
 import { Hero } from "@/components/Hero";
@@ -12,8 +13,9 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <Projects />
         <Education />
+        <Projects />
+        <Approach />
       </div>
     </main>
   );
